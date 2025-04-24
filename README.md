@@ -1,6 +1,6 @@
 # 🤖 AI Empathy Analysis: How LLMs Respond to Breakup Scenarios
 
-As AI becomes more integrated into everyday life, people are increasingly turning to large language models (LLMs) not only for information but also for emotional support. This shift raises an important question: **Can AI demonstrate empathy, and if so, how does it do it, and does it do it fairly?**
+As AI becomes more integrated into everyday life, people are increasingly turning to large language models (LLMs) not only for information but also for emotional support. This shift raises an important question: **Can AI demonstrate empathy? If so, how does it do it, and does it do it fairly?**
 
 We're interested in how different LLMs approach empathy in sensitive relationship scenarios, especially those involving **moral nuance** and **emotional complexity** like infidelity.
 
@@ -27,7 +27,6 @@ We selected:
   - **LIWC** (Linguistic Inquiry and Word Count) to assess psychological and emotional word use  
   - **N-gram analysis** to explore stylistic and phrase-level differences
 
----
 
 ## 📐 Statistical Tests
 
