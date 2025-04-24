@@ -6,7 +6,7 @@ We're interested in how different LLMs approach empathy in sensitive relationshi
 
 ---
 
-## 🔍 Research Objectives
+**🔍 Research Objectives**
 
 - Compare how different LLMs demonstrate empathy in relationship-related scenarios, especially involving infidelity  
 - Explore differences in emotional tone, moral framing, and support strategies based on user condition  
@@ -14,45 +14,43 @@ We're interested in how different LLMs approach empathy in sensitive relationshi
 
 ---
 
-## 🧪 Methodology
+**🧪 Methodology**
 
-We selected:
-- **ChatGPT** and **Claude**: two of the most prominent and widely used LLMs today  
+We selected:  
+- **ChatGPT and Claude**: two of the most prominent and widely used LLMs today  
 - **DeepSeek**: a newer model with almost no existing research on emotional or empathetic behavior
 
-**Process:**
-- Collected 20 real posts from Reddit [r/BreakUps] (10 from cheaters, 10 from cheated-on users)  
+**Process:**  
+- Collected 20 real posts from Reddit [r/BreakUps](https://www.reddit.com/r/BreakUps) (10 from cheaters, 10 from cheated-on users)  
 - Prompted each LLM to respond → 60 responses total  
-- Analyzed responses using:
+- Analyzed responses using:  
   - **LIWC** (Linguistic Inquiry and Word Count) to assess psychological and emotional word use  
   - **N-gram analysis** to explore stylistic and phrase-level differences
 
+---
 
-## 📐 Statistical Tests
+**📐 Statistical Tests**
 
 - **2-way ANOVAs** to examine interaction effects (group × model)  
 - **Welch’s t-tests** for within-model comparisons across user roles  
-- **Tukey HSD** for pairwise post-hoc analysis  
+- **Tukey HSD** for pairwise post-hoc analysis
 
 ---
 
-## 📊 Key Findings
+**📊 Key Findings**
 
 - All three models expressed empathy across both user roles  
 - **ChatGPT**: reflective, therapist-like tone with frequent causal and moral framing  
 - **DeepSeek**: emotionally expressive, validating, like a supportive friend  
-- **Claude**: neutral and balanced, often echoing the user’s story without strong interpretation  
+- **Claude**: neutral and balanced, often echoing the user’s story without strong interpretation
 
 ---
 
-## 📁 Files in This Repository
+**📁 Files in This Repository**
 
 - `LIWC-22 Results - Text Analysis Database for LIW___ - LIWC Analysis.csv`  
   → Raw LIWC output from all 60 model responses  
 - `Final Project Analysis.ipynb`  
   → Python notebook with full statistical analysis and plots  
 - `Text Database.csv`  
-  → Clean, viewer-friendly version of the original prompts and responses  
-
----
-
+  → Clean, viewer-friendly version of the original prompts and responses
