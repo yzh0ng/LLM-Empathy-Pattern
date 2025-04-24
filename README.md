@@ -1,4 +1,4 @@
-# 🤖 AI Empathy Analysis: How LLMs Respond to Breakup Scenarios
+# AI Empathy Analysis: How LLMs Respond to Breakup Scenarios
 
 As AI becomes more integrated into everyday life, people are increasingly turning to large language models (LLMs) not only for information but also for emotional support. This shift raises an important question: **Can AI demonstrate empathy? If so, how does it do it, and does it do it fairly?**
 
@@ -21,7 +21,7 @@ We selected:
 - **DeepSeek**: a newer model with almost no existing research on emotional or empathetic behavior
 
 **Process:**
-- Collected 20 real posts from [r/BreakUps] (10 from cheaters, 10 from cheated-on users)  
+- Collected 20 real posts from Reddit [r/BreakUps] (10 from cheaters, 10 from cheated-on users)  
 - Prompted each LLM to respond → 60 responses total  
 - Analyzed responses using:
   - **LIWC** (Linguistic Inquiry and Word Count) to assess psychological and emotional word use  
